@@ -5,3 +5,18 @@
 .checkout > hr {
     width: 100%;
 }
+
+.checkout{
+    display: flex;
+    padding: 20px;
+    height: max-content;
+    background-color: white;
+}
+.checkout__left{
+    width: 80%;
+}
+.checkout__pricetag{
+    float: right;
+    margin-top: -22px;
+    margin-right: 10px;
+}
