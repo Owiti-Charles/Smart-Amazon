@@ -4,10 +4,16 @@ import { Link } from "react-router-dom";
 import SearchIcon from "@material-ui/icons/Search";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import {useStateValue} from './StateProvider';
+import { auth } from "./firebase";
 
 function Navbar() {
-  const [{cart}] = useStateValue();
+  const [{cart, user}] = useStateValue();
   console.log(cart);
+  const login=()=>{
+    if (user){
+      auth.signOut();
+    }
+  }
   return (
     <nav className="navbar">
       {/* logo */}
@@ -27,10 +33,10 @@ function Navbar() {
 
       {/* 3 links */}
       <div className="navbar__nav">
-        <Link to="/login" className="navbar__link">
-          <div className="link__options">
-            <span className="optionone">hello</span>
-            <span className="optiontwo">sign in</span>
+        <Link to={!user && "/login"} className="navbar__link">
+          <div onClick = {login} className="link__options">
+  <span className="optionone">hello {user?.email}</span>
+            <span className="optiontwo">{user ? 'sign Out' : 'Sign In'}</span>
           </div>
         </Link>
         <Link to="/ " className="navbar__link">

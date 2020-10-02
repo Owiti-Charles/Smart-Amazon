@@ -19,21 +19,21 @@ function Home() {
           title="Safari Boots"
           price={3500.0}
           rating={5}
-          image="https://ucarecdn.com/b10042ed-e33c-40da-af80-00d35a792e2a/-/preview/1162x693/-/setfill/ffffff/-/format/jpeg/-/progressive/yes/"
+          image="http://uniformdistributorsltd.com/wp-content/uploads/2014/08/safari-boots.png"
         />{" "}
         <Product
           id={1}
           title="Super Bike"
           price={135000.0}
           rating={4}
-          image="https://ucarecdn.com/2d94bb0f-edb7-458c-a9f7-4485199b023d/-/preview/1162x693/-/setfill/ffffff/-/format/jpeg/-/progressive/yes/"
+          image="https://www.motorcyclespecs.co.za/Gallery_A-L_16/damon-hypersport-01.jpg"
         />
         <Product
           id={1}
           title="Safari Boots"
           price={35.0}
           rating={5}
-          image="https://ucarecdn.com/59f8e90a-14d7-4c7b-b55c-f4a60cf79863/-/preview/1162x693/-/setfill/ffffff/-/format/jpeg/-/progressive/yes/"
+          image="http://uniformdistributorsltd.com/wp-content/uploads/2014/08/safari-boots.png"
         />
       </div>
       <div className="home_row">
@@ -42,28 +42,28 @@ function Home() {
           title="Safari Boots"
           price={35.0}
           rating={5}
-          image="https://ucarecdn.com/59f8e90a-14d7-4c7b-b55c-f4a60cf79863/-/preview/1162x693/-/setfill/ffffff/-/format/jpeg/-/progressive/yes/"
+          image="http://uniformdistributorsltd.com/wp-content/uploads/2014/08/safari-boots.png"
         />{" "}
         <Product
           id={1}
           title="Safari Boots"
           price={35.0}
           rating={5}
-          image="https://ucarecdn.com/b10042ed-e33c-40da-af80-00d35a792e2a/-/preview/1162x693/-/setfill/ffffff/-/format/jpeg/-/progressive/yes/"
+          image="http://uniformdistributorsltd.com/wp-content/uploads/2014/08/safari-boots.png"
         />
         <Product
           id={1}
           title="Safari Boots"
           price={35.0}
           rating={5}
-          image="https://ucarecdn.com/b10042ed-e33c-40da-af80-00d35a792e2a/-/preview/1162x693/-/setfill/ffffff/-/format/jpeg/-/progressive/yes/"
+          image="http://uniformdistributorsltd.com/wp-content/uploads/2014/08/safari-boots.png"
         />
         <Product
           id={1}
           title="Safari Boots"
           price={35.0}
           rating={5}
-          image="https://ucarecdn.com/b10042ed-e33c-40da-af80-00d35a792e2a/-/preview/1162x693/-/setfill/ffffff/-/format/jpeg/-/progressive/yes/"
+          image="http://uniformdistributorsltd.com/wp-content/uploads/2014/08/safari-boots.png"
         />
       </div>
       <div className="home_row">
@@ -72,7 +72,7 @@ function Home() {
           title="Safari Boots"
           price={35.0}
           rating={5}
-          image="https://ucarecdn.com/b10042ed-e33c-40da-af80-00d35a792e2a/-/preview/1162x693/-/setfill/ffffff/-/format/jpeg/-/progressive/yes/"
+          image="http://uniformdistributorsltd.com/wp-content/uploads/2014/08/safari-boots.png"
         />
       </div>
     </div>
