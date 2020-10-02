@@ -3,13 +3,14 @@ export const initialState = {
   user: null,
 };
 // selectors
-export const getCartTotal = (cart) => 
+export const getCartTotal = (cart) =>
   cart?.reduce((amount, item) => item.price + amount, 0);
-
 
 const reducer = (state, action) => {
   console.log("reducer", action);
   switch (action.type) {
+    case "SET_USER":
+      return { ...state, user: action.user };
     case "ADD_TO_CART":
       //logic for adding to basket
       return { ...state, cart: [...state.cart, action.item] };

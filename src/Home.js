@@ -10,7 +10,7 @@ function Home() {
       {/* https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg */}
       <img
         className="home_image"
-        src="https://ucarecdn.com/a55e2960-2f91-48f9-b418-4185725489c2/-/preview/1162x693/-/setfill/ffffff/-/format/jpeg/-/progressive/yes/"
+        src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
         alt="banner"
       />
       <div className="home_row">
